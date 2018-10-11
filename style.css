@@ -1,0 +1,129 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+}
+
+body {
+    padding: 8px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #69696a;
+    border-radius: 30px;
+    padding: 10px 0;
+}
+
+
+.hire {
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+p {
+    color: #69696a;
+    padding-left: 30px;
+    border-left: 3px solid #ccc;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+.scroll {
+    position: fixed;
+    color: #fff;
+    border: none;
+    background-color: #000; 
+    padding: 10px 20px;
+    font-size: inherit;
+    border-radius: 30px;
+    width: 90%;
+}
+
+@media only screen and (min-width: 700px) {
+    header, nav {
+        flex-direction: row;
+    }
+    
+    header {
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    nav {
+        justify-content: space-around;
+        width: 40%;
+    }
+
+   .hire {
+        width: 20%;
+        padding: 10px 10px;
+   }
+
+   .columns {
+        display: flex;
+        justify-content: center;
+   }
+
+   .textbox {
+        width: 49%;
+        height: 500px;
+   }
+
+   .image {
+        width: 49%;
+        height: 500px;
+   }
+
+   .purple{
+        height: 180px;
+        width: 180px;
+        border-radius: 90%;
+        background-color: rgba(207, 130, 213, 0.6);
+        position: relative;
+        top: 150px;
+        left: 600px;
+    }
+   .pink {
+        height: 380px;
+        width: 380px;
+        border-radius: 190%;
+        background-color: rgba(247, 136, 167, 0.6);
+        position: relative;
+        bottom: 100px;
+        left: 300px;
+    }
+
+    .peach {
+        height: 240px;
+        width: 240px;
+        border-radius: 120%;
+        background-color: rgba(247, 193, 162, 0.7);
+        position: relative;
+        bottom: 300px;
+        left: 500px;
+    }
+
+    .scroll {
+        width: 15%;
+    }
+}
